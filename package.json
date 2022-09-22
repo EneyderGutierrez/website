@@ -1,0 +1,67 @@
+{
+  "name": "turismo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "array-union": "^1.0.2",
+    "array-uniq": "^1.0.3",
+    "balanced-match": "^1.0.2",
+    "commander": "^2.20.3",
+    "commondir": "^1.0.1",
+    "concat-map": "^0.0.1",
+    "async": "^2.6.4",
+    "email-addresses": "^3.1.0",
+    "escape-string-regexp": "^1.0.5",
+    "filename-reserved-regex": "^2.0.0",
+    "filenamify": "^4.3.0",
+    "find-up": "^4.1.0",
+    "fs-extra": "^8.1.0",
+    "fs.realpath": "^1.0.0",
+    "find-cache-dir": "^3.3.2",
+    "brace-expansion": "^1.1.11",
+    "gh-pages": "^4.0.0",
+    "glob": "^7.2.3",
+    "inflight": "^1.0.6",
+    "graceful-fs": "^4.2.10",
+    "globby": "^6.1.0",
+    "inherits": "^2.0.4",
+    "locate-path": "^5.0.0",
+    "make-dir": "^3.1.0",
+    "minimatch": "^3.1.2",
+    "object-assign": "^4.1.1",
+    "once": "^1.4.0",
+    "p-limit": "^2.3.0",
+    "jsonfile": "^4.0.0",
+    "p-locate": "^4.1.0",
+    "p-try": "^2.2.0",
+    "path-exists": "^4.0.0",
+    "path-is-absolute": "^1.0.1",
+    "pinkie": "^2.0.4",
+    "pify": "^2.3.0",
+    "pkg-dir": "^4.2.0",
+    "pinkie-promise": "^2.0.1",
+    "semver": "^6.3.0",
+    "strip-outer": "^1.0.1",
+    "lodash": "^4.17.21",
+    "universalify": "^0.1.2",
+    "trim-repeated": "^1.0.0",
+    "wrappy": "^1.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+	 "deploy": "gh-pages -d dist"
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EneyderGutierrez/website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EneyderGutierrez/website/issues"
+  },
+  "homepage": "https://github.com/EneyderGutierrez/website#readme"
+}
