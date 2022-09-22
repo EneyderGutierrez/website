@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="main.css" />   
+    <title>Animal Crossing</title>
+    <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@400;700&display=swap" rel="stylesheet">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="login">
+        <div class="container">
+      <div class="row">
+      <div class="col d-none d-lg-block"></div>
+      <div class="col">
+      <div class="text-end">
+      </div>
+     <h2 class="fw-bold text-center py-5">Bienvenidos</h2>
+  <div class="row align-items-center">
+    <div class="col-3"></div>
+    <div class="col-3"> <img src="img/nk.jpg" width="180"></div>
+    <div class="col-3"></div>
+    <div class="col-3"></div>
+  </div>
+
+
+      <div class="container w-100 my-5">
+        <div class="row text-center">
+          <div class="col-12">
+            Inicia Secion con Google para interactuar
+          </div>
+        </div>
+
+
+     <div class="row loging">
+       <div class="col">
+        <button class="btn btn-outline-danger w-100 my-1" id="button-login">
+           <div class="row align-items-center">
+             <div class="col-2">
+               <img src="img/go.png" width="32">
+             </div>
+             <div class="col-10">
+               Google
+             </div>
+           </div>
+         </button>
+       </div>
+     </div>
+
+
+
+      </div>
+      </div>
+      </div>
+    </div>
+  </div>
+<div class="menu hidden">
+        <nav class="navbar navbar-expand-sm navbar-dark bg-danger" id="navbar">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="img/logo.jpg" alt="" width="200">
+            </a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item" ><a class="nav-link active" aria-current="page" href="#" id="iniciobtn">Inicio</a></li>
+                    <li class="nav-item" id="perfilbtn"><a class="nav-link" href="#">Perfil</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Buscar</a></li>
+                    <li class="nav-item"><a class="nav-link" id="button-logout" href="#">Cerrar Sesion</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</div>
+
+
+
+<div class="inicio hidden" id="inicio">
+    <div id="games">
+      <div class="container-md p-5">
+
+        <div class="row pt-5">
+            <h3 class="text-center pb-5 pt-5 h1">Nicaragua</h3>
+        </div>
+
+              
+        <div class="row">
+            <div class="col-sm" id="Jinotega01">
+                <div class="card w-100 card-border mb-5">
+                    <img src="img/card01.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">Jinotega es un departamento privilegiado por su clima fresco, bellos paisajes y atractivos turísticos naturales, además de ser de los más productivos del país, lo que lo convierte en, sin lugar a dudas, un destino ecoturístico para los amantes de la natural.
+¡Jinotega es un diamante en bruto esperando que lo descubras! ¡Atrévete!</p>
+                    </div>
+                  </div>
+                      </div>
+                      
+                            <div class="col-sm" id="Boaco02">
+                       <div class="card w-100 card-border mb-5">
+                    <img src="img/card02.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">Siendo su cabecera departamental la ciudad de Boaco, popularmente conocida como la “Ciudad de Dos Pisos”. El departamento de Boaco se encuentra ubicado a 90 km de la capital.
+
+El nombre de BOACO, procede del zumo y del azteca. Está formado por dos palabras o raíces. «Boa o Boaj», que significa «encantadores», y la terminación «O», que quiere decir «lugar o pueblo», deduciéndose que el nombre de BOACO significa: «Pueblo o Lugar de Encantadores».</p>
+                    </div>
+                  </div>
+        </div>
+          
+            <div class="col-sm" id="Estelí03">
+                <div class="card w-100 card-border mb-5">
+                    <img src="img/card03.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">Conocido como El Diamante de Las Segovia, está ubicado a tan solo 150 kilómetros al norte de Managua. El vocablo Estelí, para algunos historiadores, procede de las voces mexicanas “ix” que significa “ojo” y “telli” que significa “plano, valle o campo”; es decir “Ojo sobre el valle”.
+.</p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-sm" id="Granada04">
+                <div class="card w-100 card-border mb-5">
+                    <img src="img/card04.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">Granada conocida como La Gran Sultana, está ubicada a tan solo 45 kilómetros al sur de Managua. Esta ciudad colonial fue fundada en 1524 por el conquistador español Francisco Hernández de Córdoba, nombrándola así en honor a su natal Granada de España. Tiene sus orígenes ancestrales en el asentamiento de la comunidad indígena de Xalteva.</p>
+                    </div>
+                  </div>
+            </div>
+            
+               <div class="col-sm" id="Chinandega05">
+                <div class="card w-100 card-border mb-5">
+                    <img src="img/card05.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">Chinandega, ubicado en el occidente del país; es un exuberante departamento donde podrás desde sumergirte en sus cálidas playas hasta conquistar la cima de sus imponentes volcanes o desde contemplar sus fervientes tradiciones hasta saborear su riquísima gastronomía.</p>
+                    </div>
+                  </div>
+            </div>
+            
+                 <div class="col-sm" id="León06">
+                <div class="card w-100 card-border mb-5">
+                    <img src="img/card06.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">Ubicada a tan solo 93km de la ciudad de Managua capital de Nicaragua, conocida como La ciudad universitaria, encontramos el departamento de León, que en la actualidad cuenta con 10 municipios: Telica, Quezalguaque, La Reynaga, El sauce, Achuapa, Santa Rosa del peñón, El Jicaral, La Paz centro y Nagarote.</p>
+                    </div>
+                  </div>
+            </div>
+               <div class="col-sm" id="Matagalpa07">
+                <div class="card w-100 card-border mb-5">
+                    <img src="img/card07.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">Matagalpa se localiza en un área irregular rodeada por montañas, con una elevación de 700 metros sobre el nivel del mar con un clima tropical existente en las planicies del Pacífico. Sus constantes lluvias permiten una vegetación ecológica muy verde.</p>
+                    </div>
+                  </div>
+            </div>
+               <div class="col-sm" id="Rivas08">
+                <div class="card w-100 card-border mb-5">
+                    <img src="img/card08.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">Rivas es un pueblo que te encantará, privilegiado por situarse entre el Océano Pacífico y el hermoso Lago Cocibolca, te da la bienvenida con sus característicos árboles de mango que embellecen la entrada del municipio, que posee un inmenso tesoro histórico y cultural.
+</p>
+                    </div>
+                  </div>
+            </div>
+            
+               <div class="col-sm" id="Carazo09">
+                <div class="card w-100 card-border mb-5">
+                    <img src="img/card09.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">Carazo se destaca por sus hermosas playas, haciendas de café, Reservas Naturales, alegres festividades religiosas y regionales llenas del colorido del folklore nacional.</p>
+                    </div>
+                  </div>
+            </div>
+               <div class="col-sm" id="Madriz10">
+                <div class="card w-100 card-border mb-5">
+                    <img src="img/card10.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">El departamento lleva el nombre en honor al presidente de Nicaragua José Madriz, su fundación se dio en 1936. Cada año se celebra su constitución el 11 de noviembre, con fiestas en sus calles principales, ferias, actividades culturales y exposiciones históricas.</p>
+                    </div>
+                  </div>
+            </div>
+            
+               <div class="col-sm" id="Nueva Segovia11">
+                <div class="card w-100 card-border mb-5">
+                    <img src="img/card11.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">Nueva Segovia De 3,491 km²; antes de la Guerra Nacional, en 1856, abarcaba toda la zona norte. El árbol de pino es representativo; su café es referencia internacional; su música folclórica es conocida a nivel nacional; sus paisajes son potenciales turísticos; la gente de sus 12 municipios es hospitalaria.
+</p>
+                    </div>
+                  </div>
+            </div>
+            
+                 <div class="col-sm" id="rio san Juan 12">
+                <div class="card w-100 card-border mb-5">
+                    <img src="img/card12.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">Río San Juan es la capital de la naturaleza, por su alto grado de conservación, diversidad de flora y fauna exótica que está en su máximo esplendor. Río San Juan es la historia de sus ríos, raudales, selva y de su gente trabajadora, artistas hospitalarios y valientes.</p>
+                    </div>
+                  </div>
+            </div>
+               <div class="col-sm" id="Masaya13">
+                <div class="card w-100 card-border mb-5">
+                    <img src="img/card13.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">Masaya es una reserva inagotable de cultura viva, expresada en sus tradiciones y manifestaciones socioculturales que conservan en su esencia elementos de la cultura prehispánica y colonial. De Masaya se destaca la arquitectura y en particular la religiosidad, la producción artesanal, la danza, la música de marimba, sus fiestas patronales y tradicionales, su gastronomía y por supuesto su gente, personas con un alta grado de sensibilidad y creatividad artística, laboriosos, creadores y también hacedores de los saberes y prácticas culturales.
+</p>
+                    </div>
+                  </div>
+            </div>
+               <div class="col-sm" id="Chontales14">
+                <div class="card w-100 card-border mb-5">
+                    <img src="img/card14.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">El ganadero departamento de Chontales, ubicado en la zona central de Nicaragua, está compuesto por los municipios de Juigalpa, la cabecera departamental, Comalapa, San Francisco de Cuapa, Santo Domingo, Villa Sandino, Acoyapa, El Coral, La Libertad, San Pedro de Lóvago y Santo Tomás, todos ellos dispersos en un paisaje de marcados contrastes por estar integrado por amplias llanuras lacustres, elevadas mesetas y las escarpadas cimas de la sierra de Amerrique</p>
+                    </div>
+                  </div>
+            </div>
+               <div class="col-sm" id="Managua15">
+                <div class="card w-100 card-border mb-5">
+                    <img src="img/card15.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">Managua, un destino turístico emergente, cuenta con las huellas más antiguas del continente, bellezas naturales únicas en la región, lagunas cratéricas dentro de la ciudad, un clima cálido y un exuberante paisaje. </p>
+                    </div>
+                  </div>
+            </div>
+               <div class="col-sm">
+                <div class="card w-100 card-border mb-5">
+                    <img src="img/card03.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text"></p>
+                    </div>
+                  </div>
+            </div>
+               <div class="col-sm">
+                <div class="card w-100 card-border mb-5">
+                    <img src="img/card03.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text"></p>
+                    </div>
+                  </div>
+            </div>
+               <div class="col-sm">
+               
+            </div>
+             </div>
+      </div>
+
+</div></div>
+
+
+    <div class="container hidden" id="perfil">
+
+        <div class="row">
+            <div class="col-sm-4" style="margin-top: 50px;">
+                <div class="text-center">
+                    <img src="http://ssl.gstatic.com/accounts/ui/avatar_2x.png" class="avatar img-circle img-thumbnail"
+                        alt="avatar">
+                   
+                    
+                </div>  </div>
+                
+                <hr><br>
+                                                                                   <div class="panel panel-default">
+                    <div class="panel-heading"><h3 class="nameh"></h3> <i class="fa fa-link fa-1x"></i></div>
+                    <div class="panel-body"><a
+                            href="https://github.com/sergio-gonzalez11">github.com/EneyderGutierrez</a></div>
+                </div>
+
+                
+                
+            </div>
+
+            <div class="col-sm-8" style="margin-top: 50px;">
+                <ul class="nav nav-tabs">
+                    <li class="active"><a data-toggle="tab" href="#home">crea una cuenta empresarial</a></li>
+                </ul>
+
+
+                <div class="tab-content">
+                    <div class="tab-pane active" id="home">
+                        <hr>
+                        <form class="form" action="##" method="post" id="registrationForm">
+                            <div class="form-group">
+
+                                <div class="col-xs-6">
+                                    <label for="nombre">
+                                        <h4>Nombre</h4>
+                                    </label>
+                                    <input type="text" class="form-control" name="nombre" id="nombre"
+                                        placeholder="nombre">
+                                </div>
+                            </div>
+                            <div class="form-group">
+
+                                <div class="col-xs-6">
+                                    <label for="last_name">
+                                        <h4>Categoría</h4>
+                                    </label>
+                                    <input type="text" class="form-control" name="apellidos" id="apellidos"
+                                        placeholder="Categoría">
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+
+                                <div class="col-xs-6">
+                                    <label for="teléfono">
+                                        <h4>Teléfono</h4>
+                                    </label>
+                                    <input type="text" class="form-control" name="teléfono" id="teléfono"
+                                        placeholder="teléfono">
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <div class="col-xs-6">
+                                    <label for="mobile">
+                                        <h4>Movil</h4>
+                                    </label>
+                                    <input type="text" class="form-control" name="movil" id="movil"
+                                        placeholder="introduce tu móvil">
+                                </div>
+                            </div>
+                            <div class="form-group">
+
+                                <div class="col-xs-6">
+                                    <label for="email">
+                                        <h4>Email</h4>
+                                    </label>
+                                    <input type="email" class="form-control" name="email" id="email"
+                                        placeholder="you@email.com">
+                                </div>
+                            </div>
+                            <div class="form-group">
+
+                                <div class="col-xs-6">
+                                    <label for="ciudad">
+                                        <h4>Departamento</h4>
+                                    </label>
+                                    <input type="text" class="form-control" id="ciudad" placeholder="Departamento">
+                                </div>
+                            </div>
+                            <div class="form-group">
+
+                                <div class="col-xs-6">
+                                    
+                                </div>
+                            </div>
+                            <div class="form-group">
+
+                                <div class="col-xs-6">
+                                   
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-xs-12">
+                                    <br>
+                                    <button class="btn btn-success" type="submit"><i
+                                            class="glyphicon glyphicon-ok-sign"></i> Guardar</button>
+                                    <button class="btn btn-danger" type="reset"><i
+                                            class="glyphicon glyphicon-repeat"></i> Limpiar</button>
+                                </div>
+                            </div>
+                        </form>
+
+                        <hr>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <script type="text/javascript">
+            $(document).ready(function () {
+                var readURL = function (input) {
+                    if (input.files && input.files[0]) {
+                        var reader = new FileReader();
+
+                        reader.onload = function (e) {
+                            $('.avatar').attr('src', e.target.result);
+                        }
+
+                        reader.readAsDataURL(input.files[0]);
+                    }
+                }
+
+                $(".file-upload").on('change', function () {
+                    readURL(this);
+                });
+            });
+        </script>
+
+
+    <!-- CAROUSEL-->
+    <div class="turiJinotega hidden">
+    
+    <div id="mainSlider" class=" carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item ">
+            <img src="img/slide01.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item active">
+            <img src="img/slide02.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img/slide03.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+          <ul class="nav nav-tabs">
+  <li class="nav-item">
+    <a class="nav-link active" aria-current="page" href="#">Turismo</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Hoteles</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Restaurantes</a>
+  </li>
+</ul>
+    </div><!-- CAROUSEL-->
+
+
+<ol class=" list-group list-group-numbered">
+  <li class="list-group-item d-flex justify-content-between align-items-start">
+    <div class="ms-2 me-auto">
+      <div class="fw-bold">Reserva Natural Macizo de Peñas Blancas</div>
+      Este macizo es uno de los más imponentes atractivos naturales de Jinotega.
+    </div>
+   
+  </li>
+  <li class="list-group-item d-flex justify-content-between align-items-start">
+    <div class="ms-2 me-auto">
+      <div class="fw-bold">Eco albergue “Entre Brisas y Encanto” La Fundadora</div>
+      Su mayor atractivo es sus vistas de 360º de montañas, sus áreas verdes y su clima más que fresco, característica de la zona.
+    </div>
+    
+  </li>
+  <li class="list-group-item d-flex justify-content-between align-items-start">
+    <div class="ms-2 me-auto">
+      <div class="fw-bold">Canopy Tour La Brellera</div>
+      El canopy es una actividad de mucha adrenalina. Cuenta con nueve plataformas de ocho cables y dos puentes colgantes
+    </div>
+    
+  </li>
+  
+  
+  <li class="list-group-item d-flex justify-content-between align-items-start">
+    <div class="ms-2 me-auto">
+      <div class="fw-bold">Parque natural Las Madres</div>
+      Contiene senderos que te guiarán por un bonito recorrido entre diferentes tipos de plantas. Es ideal para visitarlo en familia y si gustas también puedes hacerlo de noche y es igual de bonito.
+    </div>
+    
+  </li>
+  
+    <li class="list-group-item d-flex justify-content-between align-items-start">
+    <div class="ms-2 me-auto">
+      <div class="fw-bold">Museo Municipal de Jinotega</div>
+      Un bello edificio de arquitectura estilo colonial con mucha historia y actualmente con dos salas de exposición habilitadas donde podrás apreciar una colección de cerámica y lítica precolombina encontradas en territorio jinotegano. 
+    </div>
+    
+  </li>
+  
+    
+    <li class="list-group-item d-flex justify-content-between align-items-start">
+    <div class="ms-2 me-auto">
+      <div class="fw-bold">Centro acuático El Chilamate</div>
+      También a orillas del lago Apanás. Ofrece variedad de platillos y bebidas, además de actividades acuáticas como kayak, diferentes tours en lancha, pesca y baño en las aguas del lago.
+    </div>
+    
+  </li>
+  
+    
+    <li class="list-group-item d-flex justify-content-between align-items-start">
+    <div class="ms-2 me-auto">
+      <div class="fw-bold">Cascada La Bujona</div>
+      Ubicada en la comunidad La Esmeralda y formando parte de la Reserva Natural Datanlí – El Diablo, encontrarás esta majestuosa cascada de unos 25 metros de altura, llamada así por el sonido que producen sus aguas
+    </div>
+    
+  </li>  
+    
+  
+    <li class="list-group-item d-flex justify-content-between align-items-start">
+    <div class="ms-2 me-auto">
+      <div class="fw-bold">Peña de la Cruz</div>
+      Lugar emblemático de la ciudad de Jinotega. Es ideal para los amantes del ejercicio, ya que con sus más de novecientos escalones pondrán a prueba tu resistencia.  Cada cierto número de gradas podrás descansar mientras disfrutas los diferentes niveles de vistas panorámicas que te ofrece a medida que subes.
+    </div>
+    
+  </li>  
+    <li class="list-group-item d-flex justify-content-between align-items-start">
+    <div class="ms-2 me-auto">
+      <div class="fw-bold">Casa Museo Benjamín Zeledón</div>
+      Ubicado en la casa y cuna de nuestro héroe nacional, en el municipio de La Concordia. Fue reconstruida y habilitada para rendirle homenaje. 
+    </div>
+    
+  </li>  
+    <li class="list-group-item d-flex justify-content-between align-items-start">
+    <div class="ms-2 me-auto">
+      <div class="fw-bold">Museo EDSN Blanca Arauz</div>
+      Conozca la casa que fue hogar de Blanca Arauz, esposa del Gral. Augusto C. Sandino y heroína nacional.
+    </div>
+    
+  </li>  
+    <li class="list-group-item d-flex justify-content-between align-items-start">
+    <div class="ms-2 me-auto">
+      <div class="fw-bold">Rancho Bonito</div>
+      Una opción prácticamente nueva a las orillas del lago Apanás. Cuenta con servicio de alimentos y bebidas.  Puedes practicar kayak, montar a caballo y nadar en su piscina. 
+    </div>
+    
+  </li>  
+    <li class="list-group-item d-flex justify-content-between align-items-start">
+    <div class="ms-2 me-auto">
+      <div class="fw-bold">Cabaña Tío Nacho</div>
+      Un pequeño, pero pintoresco hotel de montaña ubicado en la comunidad La Brellera, en San Rafael del Norte, donde encontrarás la tranquilidad que tanto anhelamos los citadinos
+    </div>
+    
+  </li>  
+    <li class="list-group-item d-flex justify-content-between align-items-start">
+    <div class="ms-2 me-auto">
+      <div class="fw-bold">Parque Apapuerta de Xinotecalt</div>
+      Creado para la diversión infantil y familiar, cuenta con áreas deportivas, bonitos jardines, áreas de descanso y piscinas para adulto y niños de diferentes edades. 
+    </div>
+    
+  </li>  
+   
+  
+</ol>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+<div id="app">
+     
+      <button id="" class="hidden">Logout</button>
+      <form id="todo-form" class="hidden">
+        <div id="user-info"></div>
+        <input
+          id="todo-input"
+          type="text"
+          placeholder="Todo"
+          autocomplete="off"
+        />
+      </form>
+
+      <div id="todos-container"></div>
+    </div>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-firestore.js"></script>
+
+    <script>
+      // Your web app's Firebase configuration
+const firebaseConfig = {
+    apiKey: "AIzaSyBuDSH3I2usj57koTory9dK26wks5JhHdA",
+    authDomain: "prototurismo-df05f.firebaseapp.com",
+    projectId: "prototurismo-df05f",
+    storageBucket: "prototurismo-df05f.appspot.com",
+    messagingSenderId: "842374207052",
+    appId: "1:842374207052:web:35c63e545f9afe9d7606e9"
+  };     
+      firebase.initializeApp(firebaseConfig);
+    </script>
+    <script src="app.js" type="module"></script>
+
+<script src="js/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+
+
+  </body>
+</html>
